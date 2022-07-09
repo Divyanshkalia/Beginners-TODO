@@ -1,13 +1,11 @@
 body {
-    font-family: Roboto;   
-    background: #b93a29;  
-    background: -webkit-linear-gradient(to left, #FFFFFF, #fa6d6d, rgb(185, 48, 41));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #FFFFFF, #fa9c6d, #b93729); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-             
-}
+    background: url(photo-1553095066-5014bc7b7f2d.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }  
 
 h1 {
-    background-color: #b92929;
+    background-color: #4f29b9;
     color: white;
     margin: 0;
     padding: 10px 20px;
@@ -72,7 +70,7 @@ input::placeholder {
 
 #container {
     width: 700px;
-    margin: 100px auto;
+    margin: 200px auto;
     box-shadow: 0 0 3px rgba(0,0,0,0.1);
     background-color: #f7f7f7;
 }
